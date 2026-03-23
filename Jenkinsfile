@@ -4,7 +4,8 @@ pipeline{
         stage("A"){
             steps{
                 script{
-                    echo "GIT_COMMIT: ${GIT_COMMIT}"
+                    echo "=======ENV ======= }"
+                    sh "env" 
                 }
             }
         }
