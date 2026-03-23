@@ -6,7 +6,7 @@ pipeline{
                 script{
                     echo "========executing A========"
                 }
-                    echo "GIT commiter name: ${GIT_COMMITTER_NAME}"
+                    echo "GIT_AUTHOR_NAME: ${GIT_AUTHOR_NAME}"
             }
         }
     }
