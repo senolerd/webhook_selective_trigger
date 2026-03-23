@@ -7,6 +7,7 @@ pipeline{
                     echo "=======ENV ======= }"
                     sh "env" 
                     echo "checking if ignore is working. Email set to: mahmut@mahmut.com"
+                    
                 }
             }
         }
