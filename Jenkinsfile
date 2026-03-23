@@ -6,6 +6,7 @@ pipeline{
                 script{
                     echo "=======ENV ======= }"
                     sh "env" 
+                    
                 }
             }
         }
