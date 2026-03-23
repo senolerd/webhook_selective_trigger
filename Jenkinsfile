@@ -8,6 +8,8 @@ pipeline{
                     sh "env" 
                     echo "checking if ignore is working. Email set to: senolerd@gmail.com"
                     echo "checking if ignore is working. Email set to: senolerd@gmail.com"
+                    echo "checking if ignore is working. Email set to: senolerd@gmail.com"
+                    echo "checking if ignore is working. Email set to: senolerd@gmail.com"
                 }
             }
         }
