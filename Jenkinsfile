@@ -5,8 +5,8 @@ pipeline{
             steps{
                 script{
                     echo "========executing A========"
-                    echo "GIT commiter name: ${GIT_COMMITTER_NAME}"
                 }
+                    echo "GIT commiter name: ${GIT_COMMITTER_NAME}"
             }
         }
     }
