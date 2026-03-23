@@ -5,7 +5,7 @@ pipeline{
             steps{
                 script{
                     echo "========executing A========"
-                    echo "GIT commit id: ${GIT_COMMIT}"
+                    echo "GIT commiter name: ${GIT_COMMITTER_NAME}"
                 }
             }
         }
