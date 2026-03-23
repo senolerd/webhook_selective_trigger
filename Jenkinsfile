@@ -4,9 +4,8 @@ pipeline{
         stage("A"){
             steps{
                 script{
-                    echo "========executing A========"
+                    echo "CHANGE_AUTHOR: ${CHANGE_AUTHOR}"
                 }
-                    echo "GIT_AUTHOR_NAME: ${GIT_AUTHOR_NAME}"
             }
         }
     }
